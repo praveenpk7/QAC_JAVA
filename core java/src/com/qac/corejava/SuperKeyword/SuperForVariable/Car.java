@@ -34,7 +34,9 @@ public void start() {
 	}
        
        public void checkgear() {
-   		super.start();//super keyword used to call method
+   		super.start();//super keyword used to call method.....praveen
    		System.out.println("default gear="+super.gear);//here 'super' keyword  is used to call parent class gear
    	}
 }
+
+
