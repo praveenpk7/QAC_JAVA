@@ -12,5 +12,5 @@ public abstract class RBIBANK {// abstract class
 	
 	public abstract void fixedinterest();//abstract method(method without body)
 	
-
+ 
 }
