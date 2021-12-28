@@ -6,7 +6,7 @@ public class LaptopTester {
 		
 	//	DellIMPL dell = new DellIMPL(); (In before examples we doing this for object creation)
 
-		String laptopbrand = "DEll laptop";
+		String laptopbrand = "hp laptop";
 		
 		ILaptop laptopobject = LaptopFactory.getLaptop(laptopbrand);
 		

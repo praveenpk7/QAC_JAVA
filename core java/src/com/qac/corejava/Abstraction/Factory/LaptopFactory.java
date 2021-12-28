@@ -1,8 +1,8 @@
 package com.qac.corejava.Abstraction.Factory;
 
-public class LaptopFactory {
+public class LaptopFactory {//factory class
 
-	public static ILaptop getLaptop(String BrandName) {
+	public static ILaptop getLaptop(String BrandName) {//factory method
 		
 		if (BrandName.equalsIgnoreCase("dell laptop")) {
 			DellIMPL dellimpl = new DellIMPL();//first object is created
